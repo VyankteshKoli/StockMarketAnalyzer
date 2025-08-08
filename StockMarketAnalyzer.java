@@ -1,4 +1,5 @@
 import java.util.*;
+import java.io.*;
 
 public class StockMarketAnalyzer {
     static List<Integer> prices = new ArrayList<>();
@@ -112,4 +113,5 @@ public class StockMarketAnalyzer {
             System.out.println("Day " + (i + 1) + ": " + span[i]);
         }
     }
+
 }
